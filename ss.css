@@ -1,0 +1,353 @@
+ @media screen and (max-width:1024px) { CSS FOR Max WIDTH 1024Px }
+@media screen and (max-width:768px) { CSS FOR Max WIDTH 768Px }
+@media screen and (max-width:640px) { CSS FOR Max WIDTH 640Px }
+@media screen and (max-width:480px) { CSS FOR Max WIDTH 480Px }
+@media screen and (max-width:320px) { CSS FOR Max WIDTHBasil 320Px }
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  
+}
+
+#led{
+
+width: 100%;
+height: 100%;
+/*background-color: #F1F1F2;*/
+
+border-style: solid;
+ border-width: 1px;
+
+}
+#ad{
+   
+width: 100%;
+height: 200px;
+border-style: solid;
+
+
+}
+#but{
+  
+
+width: 20%;
+height:  300px;
+
+float: right;
+direction: rtl;
+}
+
+#bt{
+width: 20%;
+height: 300px;
+float: left;
+direction: rtl;
+margin-left: 0px;
+
+}
+#b{
+width: 200px;
+height: 30px;
+background: #ecb390;
+color: black;
+border-style: solid;
+border-width: 0.5px;
+text-align: right;
+display: inline-block;
+word-wrap    : break-word;
+}
+#bn{
+width: 100%;
+height: 100px;
+
+display: inline;
+}
+#left{
+  background-image:url(i.png);
+float: left;
+width: 35%;
+height: 200px;
+background-color: #ededed;
+
+}
+
+#right{
+width: 35%;
+height: 200px;
+background-image:url(im.png);
+float: right;
+background-color: #ededed;
+
+
+
+}
+#mad{
+
+  width: 30%;
+  height: 200px;
+  margin-left: 35%;
+  background-color: #ededed;
+}
+ #data{
+
+
+width: 100%;
+align-content: center;
+
+  overflow: scroll;
+/*background: #fcf8e8;
+*/
+}
+
+
+
+
+
+#in{
+
+width: 100%;
+height: 100%;
+background-color: #ededed;
+border-style: solid;
+  border-width: 5px;
+}
+
+
+
+
+
+#log {
+
+width: 100%;
+height: 100%;
+text-align: center;
+align-content: center;
+
+border: 1px solid black;
+}
+
+input{
+
+  width: 60%;
+  height: 25px;
+
+  background: #ecb390;
+  /*float: left;*/
+  left: 0px;
+  margin-top: 0.5px;
+  text-align: right;
+    border-style: none;
+}
+button{
+  background: #ecb390;
+  border-style: none;
+}
+select{
+
+
+  width: 50%;
+  height: 25px;
+  background: #ecb390;
+  float: left;
+  /*margin-left: 0px;*/
+  margin-top: 0.5px;
+  text-align: right;
+    border-style: none;
+
+}
+#basil{
+width: 100%;
+height: 100%;
+display: none;
+
+
+}
+#lnk{
+
+width: 18%;
+height: 100%;
+background-color: red;
+margin-left: 5%;
+margin-bottom: 5%;
+display: inline-block;
+position: relative;
+background-color: white;
+text-align: center;
+
+}
+
+#c{
+
+  width: 35%;
+  height:30px;
+  border-style: solid;
+    border-width: 1px;
+    background-color: #53c653;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 20%;
+}
+#f{
+
+width: 100%;
+height: 200px;
+border-style: solid;
+border-width: 1px;
+background-color: red;
+
+display: inline-block;
+position: relative;
+background-color: yellow;
+text-align: center;
+}
+#if{
+  position: absolute;
+width: 70%;
+height: 50%;
+border-style: solid;
+border-width: 1px;
+background-color: white;
+margin-top: 20%;
+margin-left: 15%;
+}
+#p{
+position: absolute;
+width: 40%;
+height: 100%;
+border-width: 1px;
+border-style: solid;
+background-color: white;
+
+
+}
+
+#n{
+position: absolute;
+width: 50%;
+height: 100%;
+border-width: 1px;
+border-style:solid; 
+margin-left: 49%;
+background-color: white;
+word-wrap:break-word;
+
+
+
+}
+#m{
+position: absolute;
+ border-bottom-style: solid;
+width: 100%;
+height: 15%;
+/*display: inline-block;*/
+bottom: 0px;
+background-color: yellow;
+
+}
+
+
+#not{
+width: 70%;
+border-style: solid;
+border-width: 1px;
+background-color: #F48C1D;
+ 
+float: right;
+}
+
+#notp{
+width: 79%;
+
+border-style: solid;
+border-width: 1px;
+background-color: #F48C1D;
+ 
+float: right;
+border-style: none;
+text-align: right;
+}
+#nota{
+
+  width: 9%;
+  border-style: solid;
+border-width: 1px;
+background-color: #53c653;
+text-align: center;
+display: inline-block;
+
+}
+
+#notc{
+
+  width: 9%;
+  border-style: solid;
+border-width: 1px;
+background-color: red;
+display: inline-block;
+text-align: center;
+
+}
+
+#bac{
+
+width: 100%;
+height: 250px;
+border-style: solid;
+border-width: 1px;
+background-color: white;
+display: block;
+overflow: scroll;
+}
+
+#baco{
+width: 30%;
+height: 150px;
+border-style: none;
+border-width: 1px;
+
+display: block;
+float: right;
+margin-top: 6%;
+
+  display: block;
+
+}
+
+p{
+  text-align: center;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  
+ body {
+    background-color: lightblue;
+  }
+ #ord{
+width: 50%;
+height: 270px;
+text-align: center;
+display: inline-block;
+margin-left: 50px;
+margin-bottom: 20px;
+margin-top: 20px;
+
+}
+
+#m{
+position: absolute;
+ border-bottom-style: solid;
+width: 100%;
+height: 15%;
+/*display: inline-block;*/
+bottom: 0px;
+background-color: yellow;
+
+}
+
+
+}
